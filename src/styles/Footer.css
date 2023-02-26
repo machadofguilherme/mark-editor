@@ -1,0 +1,26 @@
+.footer {
+  width: 100vw;
+  height: 3.10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fabd2f;
+  background-color: #282828;
+}
+
+.footer section {
+  display: flex;
+  gap: 10px;
+}
+
+.bar::after {
+  content: '|';
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 345px) {
+  .footer {
+    flex-direction: column;
+    height: 3.20rem;
+  }
+}

@@ -1,0 +1,15 @@
+.output {
+  width: 50vw;
+  height: 85vh;
+  background-color: black;
+  padding-left: 15px;
+  padding-top: 5px;
+  border-left: 1px solid #fabd2f;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 660px) {
+  .output {
+    font-size: .6rem;
+  }
+}
